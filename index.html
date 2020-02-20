@@ -455,24 +455,6 @@
             }
         })
 
-        $('.owl-carousel-video').owlCarousel({
-            loop: true,
-            margin: 10,
-            autoplay: true,
-            autoplayTimeout: 5000,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 1
-                }
-            }
-        })
-
         // Scroll Down On Click Menu
         $(document).ready(function () {
             $("#aboutme").on('click', function (event) {
@@ -567,6 +549,25 @@
             mirror: false, // whether elements should animate out while scrolling past them
             anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
+        });
+
+        $(document).ready(function () {
+            var sWindow = window.matchMedia("(max-width: 576px)");
+            if (sWindow.matches) {
+                $("div").removeAttr("data-aos");
+                $("h1").removeAttr("data-aos");
+                $("h2").removeAttr("data-aos");
+                $("h3").removeAttr("data-aos");
+                $("h5").removeAttr("data-aos");
+                $("hr").removeAttr("data-aos");
+                $("p").removeAttr("data-aos");
+                $("img").removeAttr("data-aos");
+                $("iframe").removeAttr("width");
+                $("iframe").removeAttr("height");
+                $("iframe").attr({
+                    width: "250",
+                });
+            }
         });
     </script>
 

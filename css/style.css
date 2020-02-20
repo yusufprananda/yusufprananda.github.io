@@ -297,22 +297,33 @@ nav.cNavbar .d-flex div:hover {
 
 /* On Smarthphone */
 @media (max-width: 576px) {
+    .cJumbotron .jumbotron .cNavbar .d-flex div {
+        padding: 5px;
+    }
     .cJumbotron .jumbotron .cNavbar a {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .cJumbotron .jumbotron .container div {
-        margin-top: 50px;
+        margin-top: 35px;
     }
 
     .cJumbotron h1 {
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 800;
     }
 
     .cJumbotron h2 {
         font-size: 20px;
         font-weight: 600;
+    }
+
+    .cJumbotron p {
+        font-size: 12px;
+    }
+
+    .cAboutme p {
+        font-size: 12px;
     }
 
     .cProfileimg {
@@ -334,8 +345,8 @@ nav.cNavbar .d-flex div:hover {
     }
 
     .cAboutme img {
-        width: 300px;
-        margin: 30px;
+        width: 250px;
+        margin: 20px;
     }
 
     .cSkill-wrap-left {
@@ -346,5 +357,9 @@ nav.cNavbar .d-flex div:hover {
 
     .video-text {
         display: none;
+    }
+
+    .cContact-wrap a {
+        font-size: 15px;
     }
 }
