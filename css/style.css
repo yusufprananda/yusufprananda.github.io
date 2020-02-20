@@ -1,0 +1,350 @@
+body {
+    font-family: 'Poppins',
+        sans-serif;
+    background-image: linear-gradient(to bottom, #324b4f, #355056, #39545d, #3d5965, #425d6c);
+    color: #fafafa;
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 30px;
+    font-weight: 400;
+}
+
+mark {
+    background-color: #eb009c;
+    color: white;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+hr {
+    border-color: #fafafa;
+}
+
+.cJumbotron .jumbotron .container h2 mark {
+    background-color: transparent;
+}
+
+.cLogoimg {
+    width: 50px;
+}
+
+.cNavbar a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.cNavbar a:hover {
+    text-decoration: none;
+}
+
+nav.cNavbar .d-flex div {
+    transition: 0.5s;
+}
+
+nav.cNavbar .d-flex div:hover {
+    background-color: #07689f;
+    transition: 0.5s;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    color: #fafafa;
+    box-shadow: inset 0px 300px 900px 0px black;
+}
+
+.cJumbotron .jumbotron .container div {
+    margin-top: 70px;
+}
+
+.cJumbotron h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.cJumbotron h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.cJumbotron mark {
+    color: #fafafa;
+}
+
+.cProfileimg {
+    width: 350px;
+}
+
+.cProfile {
+    right: 100px;
+    bottom: -111px;
+    border-top: 20px solid #fafafa;
+    border-right: 20px solid #fafafa;
+    border-bottom: 20px solid #fafafa;
+}
+
+.cAboutme {
+    margin-top: 75px;
+}
+
+.cAboutme-wrap {
+    padding: 20px 40px;
+    border-top: 20px solid #fafafa;
+    border-left: 20px solid #fafafa;
+}
+
+.cAboutme img {
+    width: 300px;
+    margin-top: 120px;
+}
+
+.cSkill-title {
+    padding: 20px 40px;
+    border-right: 20px solid #fafafa;
+    border-top: 20px solid #fafafa;
+}
+
+.cSkill-wrap-left {
+    padding: 0px 40px;
+    padding-bottom: 20px;
+}
+
+.cSkill-wrap-right {
+    border-right: 20px solid #fafafa;
+    padding: 0px 40px;
+    padding-bottom: 92px;
+
+}
+
+.cSkill-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: grey;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.cMyproject-wrap {
+    padding: 20px 40px;
+    border-top: 20px solid #fafafa;
+    border-left: 20px solid #fafafa;
+}
+
+.cMyproject h5 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card, .item {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    border-radius: 10px;
+}
+
+.card-title,
+.card-text {
+    color: #324b4f;
+}
+
+.video-text {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.cContact-wrap {
+    border-top: 20px solid #fafafa;
+    border-right: 20px solid #fafafa;
+    padding: 20px 40px;
+}
+
+.cContact a {
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+.cContact a {
+    color: #fafafa;
+    transition: 0.3s;
+}
+
+.cContact a:hover {
+    color: #ff9a00;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.back-to-top {
+    background-color: #95B0B4;
+    border: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.cFooter {
+    margin-top: 0px;
+    background-color: #fafafa;
+    color: #324b4f;
+}
+
+/* SKILL */
+.cSkill-html {
+    border-radius: 10px;
+    width: 90%;
+    background-color: #ff9a00;
+}
+
+.cSkill-css {
+    width: 60%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-js {
+    width: 35%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-php {
+    width: 50%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-python {
+    width: 30%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-bootstrap {
+    width: 80%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-jquery {
+    width: 30%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-wordpress {
+    width: 85%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-vector {
+    width: 70%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-photo {
+    width: 70%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-video {
+    width: 50%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-word {
+    width: 95%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-ppt {
+    width: 90%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-excel {
+    width: 60%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+
+.cSkill-visio {
+    width: 55%;
+    background-color: #ff9a00;
+    border-radius: 10px;
+}
+/* END SKILL */
+
+/* On Smarthphone */
+@media (max-width: 576px) {
+    .cJumbotron .jumbotron .cNavbar a {
+        font-size: 14px;
+    }
+
+    .cJumbotron .jumbotron .container div {
+        margin-top: 50px;
+    }
+
+    .cJumbotron h1 {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    .cJumbotron h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .cProfileimg {
+        width: 200px;
+    }
+
+    .cProfile {
+        right: 10px;
+        bottom: -111px;
+        border-top: 20px solid #fafafa;
+        border-right: 20px solid #fafafa;
+        border-bottom: 20px solid #fafafa;
+    }
+
+    .cAboutme-logo {
+        margin: 0px;
+        padding: 10px;
+        border-left: 20px solid #fafafa;
+    }
+
+    .cAboutme img {
+        width: 300px;
+        margin: 30px;
+    }
+
+    .cSkill-wrap-left {
+        padding: 0px 40px;
+        padding-bottom: 20px;
+        border-right: 20px solid #fafafa;
+    }
+
+    .video-text {
+        display: none;
+    }
+}
